@@ -1,0 +1,150 @@
+\documentclass{article}
+\usepackage[scale = 0.9]{geometry}
+\begin{document}
+
+
+\begin{itemize}
+\item\textbf{what is ML}\\
+ML makes predictions based on known properties of data
+ML is all about algorithms that parse data, learn form that data and apply what they've learned to make prediction and decision.
+
+\end{itemize}
+
+\section{supervised learning}
+\begin{itemize}
+
+\item \textbf{supervised learning}\\
+the prediction is made based on previously labeled data. Supervised learning is the process of training a predictive model. If we want to predict the outcome of an event, we use predictive model that has been trained on similar events to predict the outcome.
+\item \textbf{Regression vs. Classification in Machine Learning}\\
+regression predicts continuous values, like age, salary\\
+classification predicts discrete values, like gender, color\\
+
+
+
+
+\end{itemize}
+
+\subsection*{Regression}
+It is used for the prediction of continuous variables, such as Weather forecasting, Market Trends, etc.
+\begin{itemize}
+\item \textbf{Linear Regression}\\
+predicting the salary of an employee on the basis of the year of experience. \\
+By achieving the best-fit regression line, the model aims to predict y value such that the error difference between predicted value and true value is minimum. MSD root mean square deviation
+
+
+\item \textbf{Regression Trees}\\
+
+\item \textbf{Non-Linear Regression}\\
+
+\item \textbf{Bayesian Linear Regression}\\
+
+\item \textbf{Polynomial Regression}\\
+
+\end{itemize}
+
+\subsection*{Classification}
+the output variable is categorical
+\begin{itemize}
+\item\textbf{Random Forest}\\
+
+\item\textbf{Decision Trees}\\
+
+\item\textbf{Logistic Regression}\\
+It is a predictive analysis algorithm which works on the concept of probability. Logistic regression uses sigmoid function or logistic function which is a complex cost function. \\
+precision \& recall
+\item\textbf{Support vector Machines}\\
+
+\end{itemize}
+
+\section{unsupervised learning}
+\begin{itemize}
+\item \textbf{unsupervised learning}\\
+to group unsorted information according to similarities, patterns, and differences without any prior training of data. to find the hidden structure in unlabeled data by itself.
+Below is the list of some popular unsupervised learning algorithms:
+
+\item\textbf{K-means clustering}\\
+
+\item\textbf{KNN (k-nearest neighbors)}\\
+
+\item\textbf{Hierarchal clustering}\\
+
+\item\textbf{Anomaly detection}\\
+
+\item\textbf{Neural Networks}\\
+
+\item\textbf{Principle Component Analysis}\\
+
+\item\textbf{Independent Component Analysis}\\
+
+\item\textbf{Apriori algorithm}\\
+
+\item\textbf{Singular value decomposition}\\
+
+\end{itemize}
+
+\subsection*{Clustering}
+a method to group the objects into clusters/subset such that the ojbects with most similarities remains into a group. It finds the commonalities between the data objets and categorizes them through the presence and absence of those commonalities.
+\begin{itemize}
+\item
+\end{itemize}
+
+\subsection*{Association}
+ finding the relationships between variables in the large database. It determines the set of items that occurs together in the dataset. Association rule makes marketing strategy more effective. Such as people who buy X item (suppose a bread) are also tend to purchase Y (Butter/Jam) item.
+\begin{itemize}
+\item
+\end{itemize}
+
+\section{Reinforcement Learning}
+\begin{itemize}
+\item \textbf{Reinforcement Learning}\\
+Reinforcement learning is a feedback-based learning method, in which a learning agent gets a reward for each right action and gets a penalty for each wrong action. The agent learns automatically with these feedbacks and improves its performance. In reinforcement learning, the agent interacts with the environment and explores it. The goal of an agent is to get the most reward points, and hence, it improves its performance.
+\end{itemize}
+
+\section{other}
+
+\begin{itemize}
+\item \textbf{Overfitting and Unterfitting}\\
+Model is unterfitting if it's too simple that it cannot reflect the complexity of the training dataset. Unterfitting can be overcomed by increasing the complexity of the model or training the model for a longer period of time to reduce error.\\
+
+Overfitting model tends to perform very well on the training dataset but poorly on any new dataset. This is because the model memorizes all the specific details of the training data and fails to generalize to unseen dataset.\\
+
+ML is the art of creating models that are able to generalize and avoid memorization.
+\item \textbf{Deep learning}\\
+The Deep learning is a subset of machine learning that involves systems that think and learn like humans using artificial neural networks. One of the primary differences between machine learning and deep learning is that feature engineering is done manually in machine learning. In the case of deep learning, the model consisting of neural networks will automatically determine which features to use (and which not to use).
+\item \textbf{What is Semi-supervised Machine Learning?}\\
+Supervised learning uses data that is completely labeled, whereas unsupervised learning uses no training data.
+
+In the case of semi-supervised learning, the training data contains a small amount of labeled data and a large amount of unlabeled data.
+
+\item \textbf{What is cross-validation? how to do it right}\\
+
+\item \textbf{What is latent semantic indexing? What is it used for? What are the specific limitations of the method?}\\
+
+\item \textbf{When do you use random forests Vs SVM and why?}\\
+
+\item \textbf{What are the drawbacks of linear model?}\\
+
+\item \textbf{What is the relationship between PCA and LDA/QDA?}\\
+
+\item \textbf{you fit a multiple regression to examine the effect of a particular variable, the variable comes back insignificant, but your coworker says that is impossible as it is known to have an effect, what would you say?}\\
+
+\item \textbf{What metrics do you use to evaluate two search engines?}
+\end{itemize}
+
+
+\begin{itemize}
+\item Bias and Variance\\
+variance: how scattered your predicted values are from the ``real'' answer\\
+bias: how far removed the mean of your predicted values is from the ``real'' answer.
+\item Avoiding overfitting using K-Fold cross validation\\
+\begin{enumerate}
+\item Split the data into K randomly-assigned segments
+\item reserve one segment as your test data
+\item train on the combined remaining K-1 segments and measure their performance against the test set
+\item repeat for each segment
+\item take the average of the K r-squared scores
+\end{enumerate}
+
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,23 @@
+\documentclass{article}
+
+\usepackage[scale = 0.9]{geometry}
+% \usepackage{verbatim}
+
+\begin{document}
+
+\section{kafka-topics}
+\begin{itemize}
+\item create topic: \\
+\texttt{kafka-topics.sh --bootstrap-server kafka:9092 --create --topic firstTopic}
+\item list topic: \\
+\texttt{kafka-topics.sh --bootstrap-server kafka:9092 --list}
+\end{itemize}
+\section{kafka-sonsole-producer}
+\begin{itemize}
+\item produce without keys\\
+\texttt{kafka-console-producer.sh --bootstrap-server kafka:9092 --topic firstTopic}
+\item produce with keys\\
+kafka-console-producer --bootstrap-server kafka:9092 --topic firstTopic --property parse.key=true --property key.separator=:
+\end{itemize}
+
+\end{document}
