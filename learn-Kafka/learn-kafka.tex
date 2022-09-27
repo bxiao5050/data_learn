@@ -1,23 +1,61 @@
 \documentclass{article}
 
 \usepackage[scale = 0.9]{geometry}
-% \usepackage{verbatim}
+\usepackage{hyperref}
 
 \begin{document}
+\section{\href{https://towardsdatascience.com/how-to-install-apache-kafka-using-docker-the-easy-way-4ceb00817d8b}{Docker}}
+
+\begin{itemize}
+\item connect to Kafka shell\\
+\texttt{docker exec -it kafka /bin/sh}
+\end{itemize}
 
 \section{kafka-topics}
 \begin{itemize}
-\item create topic: \\
-\texttt{kafka-topics.sh --bootstrap-server kafka:9092 --create --topic firstTopic}
+\item create topic:
+\begin{itemize}
+\item \texttt{kafka-topics.sh --bootstrap-server kafka:9092 --create --topic firstTopic}
+\item \texttt{kafka-topics.sh --bootstrap-server kafka:9092 --create --topic secondTopic --partitions 3}
+\item \textttt{kafka-topics.sh --bootstrap-server kafka:9092 --create --topic thirdTopic --partitions 3 --replication-factor 2}
+\end{itemize}
+
+
 \item list topic: \\
 \texttt{kafka-topics.sh --bootstrap-server kafka:9092 --list}
 \end{itemize}
-\section{kafka-sonsole-producer}
+
+\section{kafka-console-producer}
 \begin{itemize}
 \item produce without keys\\
 \texttt{kafka-console-producer.sh --bootstrap-server kafka:9092 --topic firstTopic}
 \item produce with keys\\
 kafka-console-producer --bootstrap-server kafka:9092 --topic firstTopic --property parse.key=true --property key.separator=:
 \end{itemize}
+
+\section{kafka-console-consumer}
+\begin{itemize}
+\item consuming\\
+\texttt{kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic firstTopic}
+\item consuming from beginning\\
+\texttt{kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic firstTopic --from-beginning}
+\item display key, values and timestamp in consumer\\
+\texttt{kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic firstTopic --formatter kafka.tools.DefaultMessageFormatter --property print.timestamp=true --property print.key=true --property print.value=true --from-beginning}
+\end{itemize}
+
+\section{kafka-consumer-group}
+\begin{itemize}
+\item
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
 
 \end{document}
