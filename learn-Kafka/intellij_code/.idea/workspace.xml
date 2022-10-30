@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e440d1ff-e24c-4ff2-8a21-53da6746190e" name="Changes" comment="" />
+    <list default="true" id="e440d1ff-e24c-4ff2-8a21-53da6746190e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Latex/learn-kafka.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../Latex/learn-kafka.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/test/bin/ProducerDemo.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +43,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FiTIMOjMpbKctmoKANYvakxjfg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,15 +54,79 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowCommit.ShowToolbar" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka-basics" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AI-PC2\Dropbox\material\data_learn\learn-Kafka\intellij_code\kafka-basics" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AI-PC2\Dropbox\material\data_learn\learn-Kafka\intellij_code\kafka-basics" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.test.bin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WikimediaChangesProducer">
+    <configuration name="ConsumerDemoCooperative" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.test.bin.ConsumerDemoCooperative" />
+      <module name="kafka-test.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.test.bin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerDemoWithShutdown" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.test.bin.ConsumerDemoWithShutdown" />
+      <module name="kafka-test.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.test.bin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.test.bin.ProducerDemo" />
       <module name="kafka-test.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.test.bin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerDemoKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.test.bin.ProducerDemoKeys" />
+      <module name="kafka-test.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.test.bin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WikimediaChangesProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.xiao.kafka.WikimediaChangesProducer" />
+      <module name="kafka-test.kafka-producer-wikimedia.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.xiao.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,8 +147,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ConsumerDemoWithShutdown" />
+      <item itemvalue="Application.ProducerDemo" />
+      <item itemvalue="Application.ProducerDemoKeys" />
+      <item itemvalue="Application.ConsumerDemoCooperative" />
+      <item itemvalue="Application.WikimediaChangesProducer" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WikimediaChangesProducer" />
+        <item itemvalue="Application.ConsumerDemoCooperative" />
+        <item itemvalue="Application.ConsumerDemoWithShutdown" />
+        <item itemvalue="Application.ProducerDemoKeys" />
         <item itemvalue="Application.ProducerDemo" />
       </list>
     </recent_temporary>
@@ -91,5 +174,16 @@
       <updated>1664973827128</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
