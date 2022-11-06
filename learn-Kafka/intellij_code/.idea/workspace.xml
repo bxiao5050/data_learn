@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e440d1ff-e24c-4ff2-8a21-53da6746190e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Latex/learn-kafka.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Latex/learn-kafka.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Latex/learn-kafka.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../Latex/learn-kafka.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/test/bin/ProducerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/xiao/kafka/WikimediaChangesProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/xiao/kafka/WikimediaChangesProducer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +53,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="ToolWindowCommit.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka-basics" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/binxiao/Library/CloudStorage/OneDrive-diconiumGmbH/data_learn/learn-Kafka/intellij_code",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\AI-PC2\Dropbox\material\data_learn\learn-Kafka\intellij_code\kafka-basics" />
@@ -95,9 +99,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ProducerDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.test.bin.ProducerDemo" />
-      <module name="kafka-test.main" />
+      <module name="kafka-test.kafka-basics.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.test.bin.*" />
@@ -148,8 +152,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ProducerDemo (1)" />
       <item itemvalue="Application.ConsumerDemoWithShutdown" />
-      <item itemvalue="Application.ProducerDemo" />
       <item itemvalue="Application.ProducerDemoKeys" />
       <item itemvalue="Application.ConsumerDemoCooperative" />
       <item itemvalue="Application.WikimediaChangesProducer" />
@@ -157,10 +161,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.WikimediaChangesProducer" />
+        <item itemvalue="Application.ProducerDemo (1)" />
         <item itemvalue="Application.ConsumerDemoCooperative" />
         <item itemvalue="Application.ConsumerDemoWithShutdown" />
         <item itemvalue="Application.ProducerDemoKeys" />
-        <item itemvalue="Application.ProducerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -185,5 +189,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
