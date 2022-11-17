@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e440d1ff-e24c-4ff2-8a21-53da6746190e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Latex/learn-kafka.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Latex/learn-kafka.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Latex/learn-kafka.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../Latex/learn-kafka.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/xiao/kafka/WikimediaChangesProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/xiao/kafka/WikimediaChangesProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/xiao/kafka/WikimediaChangeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/xiao/kafka/WikimediaChangeHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,9 +106,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemoKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ProducerDemoKeys (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.test.bin.ProducerDemoKeys" />
-      <module name="kafka-test.main" />
+      <module name="kafka-test.kafka-basics.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.test.bin.*" />
@@ -152,19 +146,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ProducerDemoKeys (1)" />
       <item itemvalue="Application.ProducerDemo (1)" />
       <item itemvalue="Application.ConsumerDemoWithShutdown" />
-      <item itemvalue="Application.ProducerDemoKeys" />
       <item itemvalue="Application.ConsumerDemoCooperative" />
       <item itemvalue="Application.WikimediaChangesProducer" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.WikimediaChangesProducer" />
+        <item itemvalue="Application.ProducerDemoKeys (1)" />
         <item itemvalue="Application.ProducerDemo (1)" />
         <item itemvalue="Application.ConsumerDemoCooperative" />
         <item itemvalue="Application.ConsumerDemoWithShutdown" />
-        <item itemvalue="Application.ProducerDemoKeys" />
       </list>
     </recent_temporary>
   </component>

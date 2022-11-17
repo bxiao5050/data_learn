@@ -30,6 +30,7 @@ public class WikimediaChangeHandler implements EventHandler {
 
     @Override
     public void onMessage(String event, MessageEvent messageEvent) throws Exception {
+        System.out.println("dsfsfs");
         log.info(messageEvent.getData());
         this.producer.send(new ProducerRecord<>(topic, messageEvent.getData()));
     }
