@@ -1,0 +1,11 @@
+{
+    "python.analysis.typeCheckingMode": "off",
+    "python.linting.pylintEnabled": false,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#0202f8",
+        "titleBar.activeForeground": "#f4f2f2"
+    }
+}
