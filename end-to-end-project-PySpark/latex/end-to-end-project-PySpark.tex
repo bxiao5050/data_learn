@@ -1,0 +1,45 @@
+\documentclass{article}
+
+\usepackage[scale = 0.9]{geometry}
+\usepackage{hyperref}
+
+\begin{document}
+\section{\href{https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe}{Python virtual environment}}
+\begin{itemize}
+\item standard libraries: venv
+\item third party libraries: virtualenv, pyenv, pyenv-virtualenv, virtualenvwrapper...\\
+this project uses \textbf{pipenv}, because 
+	\begin{enumerate}
+		\item this is the recommended tool for application dependency management by python.org. It combines Pipfile, pip and virtualenv into one command
+		\item It replaces the requirements.txt and especially solves some issues
+that use requirements.txt in multiple environments such as test integration and production. This means we are able to manage virtual environments and packages only with one tool.
+	\end{enumerate}
+\item \href{https://levelup.gitconnected.com/beginners-guide-to-pipenv-9340a6c35147}{commands related to use pipenv}
+	\begin{itemize}
+		\item install pipenv: \\\verb|python3 -m pipenv shell --python /Library/Frameworks/Python.framework/Versions/3.11/bin/python3|
+		\item check the location of virtual environment: \verb|pipenv --venv|
+		\item install package: \verb|pipenv install pandas|
+		\item run \verb|jupyter notebook| inside pipenv environment:
+		\verb|pipenv run jupyter notebook|
+	\end{itemize}
+\item \href{https://geekflare.com/aws-s3-command-examples/}{AWS setup}
+	\begin{itemize}
+		\item install aws cli: \verb|pipenv install awscli|
+	\end{itemize}
+\item \href{https://towardsdatascience.com/introduction-to-pythons-boto3-c5ac2a86bb63}{connect aws s3 using \texttt{boto3}}
+	\begin{itemize}
+		\item 
+	\end{itemize}
+\item \href{https://pbpython.com/groupby-agg.html}{pandas aggregation command}
+	\begin{itemize}
+		\item there are multiple ways to call an aggregation function, like list, dictionary and tuple
+		\item The major distinction to keep in mind is that \texttt{count} will not include \texttt{NaN} values whereas \texttt{size} will. 
+	\begin{verbatim}
+	agg_func_count = {'embark_town': ['count', 'nunique', 'size']}
+df.groupby(['deck']).agg(agg_func_count)
+	\end{verbatim}
+	\end{itemize}
+
+
+\end{itemize}
+\end{document}
